@@ -1,0 +1,102 @@
+.footer {
+    padding: 100px 100px 0px 100px;
+
+
+    &__div {
+        display: flex;
+
+        &__list {
+            display: flex;
+
+            &__ul {
+                &__li:nth-child(1) {
+                    display: flex;
+                    align-items: center;
+                    margin-right: 306px;
+                    margin-bottom: 48px;
+                }
+
+
+
+                &__li {
+
+
+                    &--img {
+                        margin-right: 24px;
+
+                        height: 42px;
+                        width: 52px;
+
+
+
+
+
+                    }
+
+                    &--image {
+
+                        height: 32px;
+                        width: 176px;
+                        left: 100px;
+                        top: 190px;
+                        border-radius: 0px;
+
+                    }
+
+                }
+
+
+            }
+
+
+        }
+
+        &__item {
+
+            display: flex;
+
+            &__ul:nth-child(1) {
+                margin-right: 150px;
+            }
+
+            &__ul:nth-child(2) {
+                margin-right: 150px;
+            }
+
+            &__ul {
+                margin-bottom: 40.02px;
+
+                &--li:nth-child(1) {
+                    font-family: 'Poppins', sans-serif;
+                    font-size: 18px;
+                    font-weight: 500;
+                    line-height: 36px;
+                    letter-spacing: 0em;
+                    text-align: left;
+                    height: 36px;
+                    color: rgba(33, 33, 33, 1);
+
+
+
+
+                }
+
+                &--li {
+                    margin-bottom: 4px;
+                    height: 32px;
+                    color: rgba(148, 148, 148, 1);
+                }
+
+
+
+            }
+
+
+        }
+
+
+    }
+
+
+
+}

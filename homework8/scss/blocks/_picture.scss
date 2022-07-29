@@ -1,0 +1,20 @@
+.picture {
+    margin-right: 100px;
+    margin-left: 100px;
+    margin-bottom: 93px;
+
+    &__img:nth-child(1) {
+        margin-right: 45px;
+    }
+
+    &__img:nth-child(2) {
+        margin-right: 46px;
+    }
+
+    &__img {
+        height: 340px;
+        width: 381px;
+
+    }
+
+}

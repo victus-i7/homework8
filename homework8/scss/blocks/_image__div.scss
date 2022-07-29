@@ -1,0 +1,14 @@
+.image__div {
+    display: flex;
+    justify-content: center;
+    margin-top: 19px;
+    margin-bottom: 100px;
+
+    &--img {
+        height: 480px;
+        width: 1238px;
+
+        border-radius: 0px;
+
+    }
+}
